@@ -3,9 +3,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-section{
-    margin-bottom: 50px;
-}
+
 
 h1{
     font-size: 60px;
@@ -44,7 +42,6 @@ p{
 .contener{
     display: flex;
 }
-
 p.text-formet {
     font-size: 20px;
     line-height: 30px;
@@ -86,7 +83,7 @@ p.text-formet {
 /* recipies Section */
 .Recipie-contener {
     display: flex;
-    padding: 0px 15% 0px 15%;
+    padding: 0px 10% 0px 10%;
 }
 
 .recipies-title{
@@ -108,4 +105,24 @@ p.text-formet {
     margin: 0 1%;
     box-shadow: 0px 5px 15px 0px #e3dcdc;
     border-radius: 20px;
+}
+
+/* social-media */
+
+.social-contener {
+    display: flex;
+}
+
+.social-width {
+    width: 32.33%;
+    margin-left: 5%;
+}
+.social-item {
+    margin: 50px 10% 0px 10%;
+    box-shadow: 0px 10px 31px 15px #efeded;
+    padding: 40px 0px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    text-align: center;
 }
