@@ -126,3 +126,32 @@ p.text-formet {
     border-radius: 20px;
     text-align: center;
 }
+
+/* Get in Touch */
+
+
+/* footer */
+footer{
+    margin-top: 50px;
+}
+
+.food-dokan {
+    text-align: center;
+    background-color: #0B0D17;
+    height: 150px;
+    padding: 50px 0px;
+}
+h3.food {
+        color: #5B5B5B;
+    }
+
+span.food-title {
+    color: orange;
+
+}
+span.food-text-color{
+    color: white;
+}
+
+
+   
