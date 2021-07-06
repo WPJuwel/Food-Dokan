@@ -4,7 +4,6 @@ body{
     margin: 0px;
 }
 
-
 h1{
     font-size: 60px;
     font-weight: bold;
@@ -37,6 +36,24 @@ p{
     font-weight: 600
 }
 
+/* header section */
+
+header {
+    padding: 20px;
+    background: #fba24f;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+a.nav-btn {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
 /* first section */
 
 .contener{
@@ -51,16 +68,17 @@ p.text-formet {
 .Skip-color{
     color: #FBA24F;
 }
-.hero-info{
+.hero-info {
     padding-left: 10%;
     margin-top: 5%;
-    padding-right:5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
 }
-.shape-images img{
-    width: 100%;
-    margin-top: 30px;
+.shape-images img {
+    width: 95%;
+    margin-top: 100px;
+    border-radius: 100px;
 }
-
 
 /* About Me section */
 
@@ -75,29 +93,26 @@ p.text-formet {
     margin-left: 30%;
     margin-top: 50px;
 }
-
 .about-info{
     margin-top: 12%;
 }
-
 /* recipies Section */
 .Recipie-contener {
     display: flex;
     padding: 0px 10% 0px 10%;
 }
-
 .recipies-title{
     text-align: center;
-    padding: 0px 35%;
+    padding: 0px 30%;
     margin-bottom: 50px;
 }
 
 .Recipie-title-color{
     color: black;
 }
-
 .Recipie-images img{
-    width: 100%;   
+    width: 100%; 
+    border-radius: 40PX;  
 }
 
 .Recipie-columns {
@@ -122,13 +137,52 @@ p.text-formet {
     box-shadow: 0px 10px 31px 15px #efeded;
     padding: 40px 0px;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     border-radius: 20px;
     text-align: center;
 }
 
-/* Get in Touch */
+/* Contact form*/
 
+.form-bg {
+    background-image: url(images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-design {
+    text-align: center;
+    font-size: 30px;
+    color: #707070;
+    padding: 4%;
+    margin-bottom: -50px;
+}
+.send-btn {
+    padding: 20px 70px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #db212c;
+}
+
+.id {
+    height: 49px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    border-color: #ff8325;
+    border: 1px;
+    margin-top: 10px;
+}
+input.id.mbox {
+    height: 200px;
+}
+
+.form-style {
+    margin-bottom: 25px;
+}
 
 /* footer */
 footer{
@@ -152,6 +206,3 @@ span.food-title {
 span.food-text-color{
     color: white;
 }
-
-
-   
